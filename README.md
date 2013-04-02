@@ -33,7 +33,7 @@ Add the following code snippet in your project where need to feedback.
 
     = link_to '','/feedback/feedback_infos/new',:id => "add_feedback", :remote => true, "data-type" => "script",:class =>"btn"
 
-And then,you should touch a new 'application.slim' ,such as  *app/views/layout/application.slim*
+And then,you should touch a new file 'application.slim' ,such as  *app/views/layout/application.slim*
 
 Add the following to 'application.slim',
 
