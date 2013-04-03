@@ -47,6 +47,6 @@ Add the following to 'application.slim',
         = yield
 ---
 ###Copyright
-This project uses MIT-LICENSE and develops by *zhiyisoft*.
+This project uses MIT-LICENSE and is developing by *zhiyisoft*.
 
 
