@@ -4,11 +4,10 @@ A rails engine for feedback.You can use this in anywhere you want to have a feed
 ---
 ### Features
 
-*Using slim to draw the template
+*Only can using 'slim' to draw the template
 
-*High performance
+*High performance .etc
 
-*.etc
 
 ----
 ### Installation
@@ -29,13 +28,13 @@ After updating your bundle, run the installer:
 ### Usage
     
 
-Add the following code snippet in your project where need to feedback.
+Add the following code snippet in your project where need to hava a feedback.
 
     = link_to '','/feedback/feedback_infos/new',:id => "add_feedback", :remote => true, "data-type" => "script",:class =>"btn"
 
-And then,you should touch a new file 'application.slim' ,such as  *app/views/layout/application.slim*
+And then,you should touch a new file 'application.slim' ,such as  *app/views/layout/application.slim*.
 
-Add the following to 'application.slim',
+Add the following to the 'application.slim' file,
 
     doctype html
     html
